@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>produk</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/navbars/" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./Style.css" />
+    <link rel="stylesheet" href="./style_ortus.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-transparent">
+      <div class="container">
+        <a class="navbar-brand" href="#">Bintang.stor</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <form class="d-flex ms-auto">
+            <input class="form-control me-2" type="search" placeholder="Cari Barang Anda!" aria-label="Cari" />
+            <button class="btn btn-light" type="submit">Cari</button>
+          </form>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#promo">promo</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="keranjang.html"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="registrasi.html">Daftar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Masuk</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Breadcrumb -->
+    <!-- Breadcrumb -->
+    <div class="container" style="padding-top: 100px">
+      <nav aria-label="breadcrumb" style="background-color: #fff" class="mt-3">
+        <ol class="breadcrumb p-3">
+          <li class="breadcrumb-item"><a href="index.html" class="text-decoration-none">Beranda</a></li>
+          <li class="breadcrumb-item"><a href="index.html" class="text-decoration-none">Promo</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Produk</li>
+        </ol>
+      </nav>
+    </div>
+    <!-- Breadcrumb -->
+
+    <!-- promo -->
+    <div class="container">
+      <div class="row row-product">
+        <div class="col-lg-6">
+          <figure class="figure">
+            <img src="./assets/img-sepatu/nice 1.jpeg" class="figure-img img-fluid" style="border-radius: 5px; width: 450px" />
+            <figcaption class="figure-caption d-flex justify-content-evenly">
+              <a href="#">
+                <img src="./assets/img-sepatu/nice 1.jpeg" class="figure-img img-fluid" style="border-radius: 5px; width: 70px" />
+              </a>
+
+              <a href="#">
+                <img src="./assets/img-sepatu/nice 2.jpeg" class="figure-img img-fluid" style="border-radius: 5px; width: 70px" />
+              </a>
+
+              <a href="#">
+                <img src="./assets/img-sepatu/nice 3.jpeg" class="figure-img img-fluid" style="border-radius: 5px; width: 70px" />
+              </a>
+
+              <a href="#">
+                <img src="./assets/img-sepatu/nice 4.jpeg" class="figure-img img-fluid" style="border-radius: 5px; width: 70px" />
+              </a>
+
+              <a href="#">
+                <img src="./assets/img-sepatu/nice 5.jpeg" class="figure-img img-fluid" style="border-radius: 5px; width: 70px" />
+              </a>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-lg-6">
+          <h4>Nike Zoom Mercurial Superfly 9 Elite White Blue SG</h4>
+          <div class="garis-product"></div>
+          <table class="table table-borderless">
+            <tr>
+              <th>Jenis produk</th>
+              <td>Sepatu Bola</td>
+            </tr>
+            <tr>
+              <th>Merek produk</th>
+              <td>NIKE</td>
+            </tr>
+            <tr>
+              <th>Tipe</th>
+              <td>Mercurial Superfly 9</td>
+            </tr>
+            <tr>
+              <th>Biaya Ongkir</th>
+              <td>Standar</td>
+            </tr>
+            <tr>
+              <th>Stok produk</th>
+              <td>30 pcs</td>
+            </tr>
+          </table>
+
+          <h3 class="text-muted mb-2">Rp.550.000</h3>
+
+          <button class="btn btn-dark btn-sm"><i class="fas fa-minus"></i></button>
+          <span class="mx-2">1</span>
+          <button class="btn btn-warning btn-sm"><i class="fa-solid fa-plus"></i></button>
+          <span class="mx-2">Tersisa 28 Pasang</span>
+
+          <div class="btn-produk mt-4">
+            <a href="#" class="btn btn-warning btn-lg" style="font-size: 14px">Beli Sekarang</a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12"></div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-left">
+        <h3>Payment Method</h3>
+        <div class="credit-cards">
+          <img src="./assets/img_footer/mastercard.png" alt="" />
+          <img src="./assets/img_footer/paypal.png" alt="" />
+          <img src="./assets/img_footer/visa.png" alt="" />
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        </div>
+      </div>
+
+      <div class="footer-center">
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p>Yogyakarta, Indonesia</p>
+        </div>
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+62 82297063265</p>
+        </div>
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="#">tamprannoto@gmail.com</a></p>
+        </div>
+      </div>
+
+      <div class="footer-right">
+        <p class="footer-about">
+          <span>About</span>
+          website ecommerence ini menyediakan peralatan olahraga yang pastinya berkualitas dengan harga yang terjangkau
+        </p>
+
+        <div class="footer-media">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+    </footer>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
